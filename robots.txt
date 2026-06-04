@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://frankie-marrocco.github.io/sitemap.xml
+Sitemap: https://frankiemarrocco.com/sitemap.xml
