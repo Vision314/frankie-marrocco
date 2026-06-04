@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "Vision314/frankie",
+    "data-repo": "Vision314/frankie-marrocco",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
