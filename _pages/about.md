@@ -28,3 +28,4 @@ latest_posts:
 ---
 Graduated with my M.S. in Electrical and Computer Engineering from WPI in 2026, and I've been working at GlobTek Inc. for the past year designing medical-grade power supplies. I am a research assistant at the WPI CHIPS Design Studio, where I test and characterize custom integrated circuits for future publications. 
 
+<a href="/assets/pdf/francesco-marrocco-resume.pdf" target="_blank">View my resume</a>
