@@ -30,6 +30,13 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
+<link
+  defer
+  rel="stylesheet"
+  href="{{ site.third_party_libraries.font-awesome.url.css }}"
+  integrity="{{ site.third_party_libraries.font-awesome.integrity.css }}"
+  crossorigin="anonymous"
+>
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
 <link
