@@ -4,13 +4,20 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-repositories",
-          title: "repositories",
+  },{id: "nav-projects",
+          title: "Projects",
+          description: "A growing collection of my projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
           handler: () => {
@@ -440,6 +447,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-design-of-cmos-imager",
+          title: 'Design of CMOS Imager',
+          description: "CHIPS Design Studio - 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mqp/";
+            },},{id: "projects-static-and-dynamic-characterization-of-flash-adc",
+          title: 'Static and Dynamic Characterization of Flash ADC',
+          description: "CHIPS Design Studio - 2026",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/thesis/";
+            },},{id: "projects-power-analyzer-automation-script",
+          title: 'Power Analyzer Automation Script',
+          description: "GlobTek Inc.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/yokogawa-automation-script/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
