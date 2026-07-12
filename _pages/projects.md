@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [Research, Other]
+display_categories: [Research, Data Science]
 horizontal: false
 ---
 
