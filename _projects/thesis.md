@@ -1,11 +1,12 @@
 ---
 layout: page
+date: 2026-06-01
 title: Static and Dynamic Characterization of Flash ADC
 description: CHIPS Design Studio - 2026
 img: assets/img/projects/thesis/frankie-thesis-thumbnail.png
 importance: 1
 category: Research
-related_publications: true
+related_publications: false
 ---
 
 [Download Full Thesis (PDF)]({{ '/assets/projects/thesis/FRANKIE_THESIS_FINAL_DRAFT.pdf' | relative_url }})
@@ -14,8 +15,7 @@ related_publications: true
 
 # Abstract 
 
-The  rapid  scaling  of  global  semiconductor  manufacturing  has  made  de-
-vice characterization an essential pillar of modern supply chains.  Among the
+The  rapid  scaling  of  global  semiconductor  manufacturing  has  made  device characterization an essential pillar of modern supply chains.  Among the
 most ubiquitous mixed-signal building blocks, the analog-to-digital converter
 (ADC) demands rigorous performance  validation to ensure  the reliability  of
 the systems that use them.
@@ -49,3 +49,24 @@ documented procedure to support future integrated circuit validation efforts.
         {% include figure.liquid path="assets/projects/thesis/test_setup.jpg" title="Test setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+# Carrier Board
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/projects/thesis/3d_board_image.png" title="3D board render" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/projects/thesis/top_layer.png" title="Top layer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/projects/thesis/bottom_layer.png" title="Bottom layer" class="img-fluid rounded z-depth-1 mt-3" %}
+    </div>
+</div>
+
+
+# FPGA
+
+[View Verilog Code on GitHub](https://github.com/Vision314/FLASH-ADC-CHARACTERIZATION/tree/main/verilog)
+
+
+{% include figure.liquid path="assets/projects/thesis/fpga_diagram.png" title="FPGA Diagram" class="img-fluid rounded z-depth-1" %}
+

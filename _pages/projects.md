@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [Research, Data Science]
+display_categories: [Research, Data Science, Electronics Projects]
 horizontal: false
 ---
 
@@ -41,7 +41,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | where_exp: "project", "project.category != 'sample'" | sort: "date" | reverse %}
 
   <!-- Generate cards for each project -->
 
