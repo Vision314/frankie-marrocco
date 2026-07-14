@@ -447,21 +447,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-freshness-finder",
+          title: 'Freshness Finder',
+          description: "WPI - 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/freshness_finder/";
             },},{id: "projects-design-of-cmos-imager",
           title: 'Design of CMOS Imager',
           description: "CHIPS Design Studio - 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mqp/";
+            },},{id: "projects-power-analyzer-automation-script",
+          title: 'Power Analyzer Automation Script',
+          description: "GlobTek Inc. - 2026",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/yokogawa-automation-script/";
             },},{id: "projects-static-and-dynamic-characterization-of-flash-adc",
           title: 'Static and Dynamic Characterization of Flash ADC',
           description: "CHIPS Design Studio - 2026",
           section: "Projects",handler: () => {
               window.location.href = "/projects/thesis/";
-            },},{id: "projects-power-analyzer-automation-script",
-          title: 'Power Analyzer Automation Script',
-          description: "GlobTek Inc.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/yokogawa-automation-script/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
