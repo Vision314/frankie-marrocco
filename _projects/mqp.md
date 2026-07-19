@@ -7,6 +7,7 @@ img: assets/img/projects/mqp/wcis-mqp-thumbnail.jpg
 importance: 2
 category: Research
 related_publications: false
+selected: true
 ---
 
 

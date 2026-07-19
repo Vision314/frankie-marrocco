@@ -7,6 +7,7 @@ img: assets/img/projects/thesis/frankie-thesis-thumbnail.png
 importance: 1
 category: Research
 related_publications: false
+selected: true
 ---
 
 [Download Full Thesis (PDF)]({{ '/assets/projects/thesis/FRANKIE_THESIS_FINAL_DRAFT.pdf' | relative_url }})

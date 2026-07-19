@@ -7,6 +7,7 @@ img: assets/img/projects/globtek/efficiency-cli.PNG
 importance: 1
 category: Data Science 
 related_publications: false
+selected: true
 ---
 
 [View on GitHub](https://github.com/Vision314/YOKOGAWA-POWER-ANALYZER-EFFICIENCY-CLI/tree/main)

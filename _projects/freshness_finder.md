@@ -7,6 +7,7 @@ img: assets/projects/freshness_finder/cover_image.png
 importance: 1
 category: Electronics Projects
 related_publications: false
+selected: true
 ---
 
 The **"Freshness Finder"** is a device that you can place in your fridge that detects food spoilage via a methane sensor and alerts you the next time you open your fridge. You'll never have to be surprised by old fruits and veggies again!

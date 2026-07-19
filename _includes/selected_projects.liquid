@@ -1,0 +1,22 @@
+{% assign selected_projects = site.projects | where: "selected", "true" | sort: "importance" %}
+{% if selected_projects.size > 0 %}
+  <div style="overflow-x: auto; padding-bottom: 0.5rem;">
+    <div style="display: flex; gap: 1rem; width: max-content;">
+      {% for project in selected_projects %}
+        <div style="width: 220px;">
+          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+            <div class="card h-100 hoverable">
+              {% if project.img %}
+                {% include figure.liquid loading="eager" path=project.img alt=project.title class="card-img-top" %}
+              {% endif %}
+              <div class="card-body">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <p class="card-text" style="font-size: 0.85rem;">{{ project.description }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
