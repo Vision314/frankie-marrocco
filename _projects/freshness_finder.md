@@ -26,3 +26,7 @@ The ECE2799 course at WPI is a great way for students to practice their protypin
 </div>
 
 <iframe src="{{ '/assets/projects/freshness_finder/Freshness Finder Final Presentation.pdf' | relative_url | replace: ' ', '%20' }}#toolbar=0&navpanes=0&scrollbar=0" width="100%" height="500px" style="border: none;"></iframe>
+
+## Demo Video
+
+{% include video.liquid path="assets/projects/freshness_finder/presentation_video.mp4" class="img-fluid rounded z-depth-1" controls=true %}
