@@ -9,6 +9,8 @@ category: Data Science
 related_publications: false
 ---
 
+[View on GitHub](https://github.com/Vision314/YOKOGAWA-POWER-ANALYZER-EFFICIENCY-CLI/tree/main)
+
 In order to measure the efficiency of your power supply, one might use the **Yokogawa WT1800 precision power analyzer**. At GlobTek we have this machine on our ATE rack, and often use it for measuing the efficiency of our power supplies. Unfortunatley, there is no straightforward way to plot the efficiency over time and plot it to Excel. 
 
 It is helpful to see the efficiency over time because when a power supply is under load, it warms up. As the components of the supply get hotter and hotter, the efficiency can either raise or lower over time (You can see this convergence in the middle image below). 
