@@ -1,4 +1,4 @@
-{% assign selected_projects = site.projects | where: "selected", "true" | sort: "importance" %}
+{% assign selected_projects = site.projects | where: "selected", "true" | sort: "date" | reverse %}
 {% if selected_projects.size > 0 %}
   <div style="overflow-x: auto; padding-bottom: 0.5rem;">
     <div style="display: flex; gap: 1rem; width: max-content;">
