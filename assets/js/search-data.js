@@ -467,6 +467,11 @@ ninja.data = [{
           description: "CHIPS Design Studio - 2026",
           section: "Projects",handler: () => {
               window.location.href = "/projects/thesis/";
+            },},{id: "projects-honda-cb360",
+          title: 'Honda CB360',
+          description: "Repairs &amp; Pictures",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/honda-cb360/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
